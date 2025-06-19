@@ -22,7 +22,7 @@
     --secondary: 226 232 240;
     --secondary-foreground: 15 23 42;
 
-    --muted: 241 245 249;
+    --muted: 248 250 252;
     --muted-foreground: 100 116 139;
 
     --accent: 219 234 254;
@@ -37,7 +37,7 @@
 
     --radius: 0.5rem;
 
-    --sidebar-background: 241 245 249;
+    --sidebar-background: 248 250 252;
     --sidebar-foreground: 51 65 85;
     --sidebar-primary: 59 130 246;
     --sidebar-primary-foreground: 248 250 252;
