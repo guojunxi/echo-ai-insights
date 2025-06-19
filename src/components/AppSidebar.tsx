@@ -49,7 +49,7 @@ export function AppSidebar() {
       <SidebarHeader className="p-6 border-b border-blue-200">
         <div className="space-y-1">
           <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-            echoMind
+            EchoMind
           </h1>
           <p className="text-sm text-blue-600 font-medium">
             AI-Powered Podcast Note-taking Tool

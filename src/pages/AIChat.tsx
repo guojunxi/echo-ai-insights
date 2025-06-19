@@ -11,7 +11,7 @@ const AIChat = () => {
   const [messages, setMessages] = useState([
     {
       type: "ai",
-      content: "Welcome to echoMind! I'm here to help you with podcast note-taking and knowledge management. How can I assist you today?",
+      content: "Welcome to EchoMind! I'm here to help you with podcast note-taking and knowledge management. How can I assist you today?",
       timestamp: new Date(),
     },
     {
@@ -48,9 +48,9 @@ const AIChat = () => {
   ];
 
   return (
-    <div className="flex flex-col h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <div className="flex flex-col h-screen bg-white">
       {/* Header */}
-      <div className="border-b border-blue-200 bg-white/80 backdrop-blur-sm p-4">
+      <div className="border-b border-blue-200 bg-white p-4">
         <div className="flex items-center gap-4">
           <SidebarTrigger className="text-blue-600" />
           <div className="flex items-center gap-2">
@@ -61,7 +61,7 @@ const AIChat = () => {
       </div>
 
       {/* Quick Actions */}
-      <div className="p-4 border-b border-blue-200 bg-white/60">
+      <div className="p-4 border-b border-blue-200 bg-blue-50">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
           <Card className="border-blue-200 hover:border-blue-300 transition-colors cursor-pointer">
             <CardContent className="p-3 text-center">
@@ -108,7 +108,7 @@ const AIChat = () => {
       </div>
 
       {/* Chat Messages */}
-      <div className="flex-1 overflow-y-auto p-4 space-y-4 custom-scrollbar">
+      <div className="flex-1 overflow-y-auto p-4 space-y-4 custom-scrollbar bg-white">
         {messages.map((msg, index) => (
           <div
             key={index}
@@ -133,7 +133,7 @@ const AIChat = () => {
       </div>
 
       {/* Input Area */}
-      <div className="border-t border-blue-200 bg-white/80 backdrop-blur-sm p-4">
+      <div className="border-t border-blue-200 bg-white p-4">
         <div className="flex gap-2">
           <Input
             value={message}
